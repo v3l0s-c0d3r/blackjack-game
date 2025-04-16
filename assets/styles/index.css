@@ -1,0 +1,70 @@
+body {
+    position: relative;
+    height: 100dvh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#blackjack {
+    height: 500px;
+    width: 400px;
+    padding: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    background-color: green;
+}
+
+h1 {
+    font-size: 65px;
+    margin-top: 20px;
+    color: goldenrod;
+    cursor: default;
+}
+
+#message-el {
+    font-size: 20px;
+    font-style: italic;
+    color: navajowhite;
+    cursor: default;
+}
+
+.cards,
+#sum,
+#error-el,
+#player-el {
+    font-size: 20px;
+    color: white;
+    cursor: default;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    width: 160px;
+    height: 40px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    background-color: gold;
+    cursor: pointer;
+    transition: ease-out 0.3s;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1000;
+}
