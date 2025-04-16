@@ -5,6 +5,7 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(rgba(128, 128, 128, 0.3), rgba(128, 128, 128, 0.3)), url('https://unsplash.com/photos/a-group-of-playing-cards-with-clowns-on-them-5YYwPO0OfG4') center/cover;
 }
 
 #blackjack {
