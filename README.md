@@ -1,6 +1,7 @@
 <div align="center">
   <br />
-    <img src="assets/images/127.0.0.1_5500_ (1).png" alt="Project Banner">
+    <img src="assets/images/127.0.0.1_5500_ (1).png" width="265" height="350px" alt="Project Banner">
+  <br />
   <br />
 
   <div>
