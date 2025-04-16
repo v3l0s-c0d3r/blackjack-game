@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/badge/-CSS3-black?style=for-the-badge&logo=css3&logoColor=white&color=%231572B6" alt="css" />
   </div>
 
-  <h3 align="center">Food Delivery Website for Sushi Restaurant</h3>
+  <h3 align="center">Blackjack Game</h3>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -24,6 +24,7 @@ I designed a **multi-page Sushi Restaurant website** as my final project submiss
 ## ⚙️ Tech Stack  
 - HTML5  
 - CSS3
+- Vanilla JS
 
 ## 🔋 Features  
 **👉 Multi-Page Navigation:** Seamless transitions between **Home**, **Menu**, and **Cart** pages with a sleek sidebar menu.  
