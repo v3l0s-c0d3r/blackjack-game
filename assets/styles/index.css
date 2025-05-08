@@ -191,7 +191,7 @@ canvas {
 @media (min-width: 375px) {
     body {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                    url('/assets/images/background.jpg') center/cover no-repeat;
+                    url('/../images/background.jpg') center/cover no-repeat;
     }
     
     #blackjack {
