@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-    <img src="https://i.postimg.cc/37PnQw8n/Image-from.png" alt="Project Banner">
+    <img src="https://i.postimg.cc/XY7nL3yZ/blackjack-banner.png" alt="preview" width="800">
   <br />
   <br />
 
@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logo=javascript&logoColor=black&color=%23F7DF1E" alt="javascript" />
   </div>
 
-  <h3 align="center">My iPhone 15 Website Clone</h3>
+  <h3 align="center">Blackjack Casino Game</h3>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -22,29 +22,30 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP (Greensock Animations) and Three.js for displaying iPhone 15 Pro models in various colors and shapes.
+A sleek, responsive Blackjack game built with vanilla JavaScript. Offers an immersive gameplay experience featuring genuine Blackjack rules, dynamic sound effects, and a celebratory confetti animation upon hitting 21. The game features persistent state management using localStorage, allowing you to continue your session even after refreshing the page.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- React.js
-- Three.js
-- React Three Fiber
-- React Three Drei
-- GSAP (Greensock)
-- Vite
-- Tailwind CSS
+- Vanilla JavaScript (ES6+)
+- HTML5
+- CSS3
+- Canvas Confetti Library
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Beautiful Subtle Smooth Animations using GSAP**: Enhanced user experience with seamless and captivating animations powered by GSAP
+👉 **Authentic Blackjack Rules**: Real casino-style gameplay with proper card values and winning conditions
 
-👉 **3D Model Rendering with Different Colors and Sizes**: Explore the iPhone 15 Pro from every angle with dynamic 3D rendering, offering various color and size options
+👉 **Persistent Game State**: Your chips and game progress are saved between sessions using localStorage
 
-👉 **Custom Video Carousel (made with GSAP)**: Engage users with a unique and interactive video carousel developed using GSAP for a personalized browsing experience
+👉 **Celebratory Effects**: Confetti animations and sound effects when you hit Blackjack (21)
 
-👉 **Completely Responsive**: Consistent access and optimal viewing on any device with a fully responsive design that adapts to different screen sizes
+👉 **Responsive Design**: Fully playable on all devices from mobile to desktop with adaptive styling
 
-...and many more, including code architecture and reusability.
+👉 **Player Personalisation**: Custom name entry modal for a personalised gaming experience
+
+👉 **Sound Effects**: Immersive audio feedback for card draws and winning moments
+
+👉 **Dynamic UI**: Buttons and messages adapt based on game state for intuitive gameplay
 
 ## <a name="follow-me">🫱🏽‍🫲🏼 Let's Connect</a>
 **Hey there! Interested in working with me?** 
@@ -56,4 +57,4 @@ Looking forward to geeking out together!
 <br/>
 <br/>
 <br/>
-<i>courtesy of [Javascript Mastery](https://www.youtube.com/@javascriptmastery) | [Adrian Hajdin](https://github.com/adrianhajdin)</i>
+<i>courtesy of [Scrimba](https://www.scrimba.com) | [Per Harald Borgen](https://github.com/perborgen)</i>
