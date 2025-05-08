@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <title>Blackjack Game</title>
+</head>
+<body>
+    <div id="blackjack">
+        <h1>Blackjack</h1>
+        <div class="game-display">
+            <p id="message-el">Want to play a round?</p>
+            <p class="cards">Cards:</p>
+            <p id="sum">Sum:</p>
+        </div>
+        <div class="buttons">
+            <button id="start" onclick="startGame()">START GAME</button>
+            <button id="newcard" onclick="newCard()">NEW CARD</button>
+            <button id="reset" onclick="resetGame()">RESET</button>
+        </div>
+        <p id="player-el"></p>
+    </div>
+
+    <!-- <div class="attribution">
+        <p class="text">
+            "Tada Fanfare" Sound Effect by <a href="https://pixabay.com/users/freesound_community-46691455/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=6313">freesound_community</a> from <a href="https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=6313">Pixabay</a>
+            <br>
+            "Card Sound" Sound Effect by <a href="https://pixabay.com/users/freesound_community-46691455/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=35956">freesound_community</a> from <a href="https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=35956">Pixabay</a>
+            <br>
+            <a href="https://www.flaticon.com/free-icons/dice" title="dice icons">Dice icons created by Muhamad Ulum - Flaticon</a>
+        </p>
+    </div> -->
+    
+    <script src="index.js"></script>
+</body>
+</html>

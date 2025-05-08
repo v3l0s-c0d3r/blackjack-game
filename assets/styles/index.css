@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+}
+
+body {
+    position: relative;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(185, 145, 90);
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+
+/* Base styles - Mobile first (default for smallest screens) */
+#blackjack {
+    min-height: 480px;
+    max-height: 480px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+    background-color: rgb(1, 95, 1);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 59px;
+    color: goldenrod;
+}
+
+#message-el {
+    font-size: 20px;
+    font-style: italic;
+    color: navajowhite;
+}
+
+.game-display {
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttons,
+.error-msg {
+    height: 135px;
+    display: flex;
+    align-items: center;
+}
+
+.error-msg {
+    justify-content: center;
+    line-height: 1.7; 
+
+    & span {
+        width: 80%;
+    }
+}
+
+.cards,
+#sum,
+#error-el,
+#player-el {
+    font-size: 20px;
+    color: white;
+}
+
+.buttons {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttons button {
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(1, 95, 1);
+    background-color: goldenrod;
+    cursor: pointer;
+    transition: ease-out .1s;
+}
+
+.buttons button:hover {
+    background-color: rgb(220, 195, 20);
+    transition: ease-out .1s;
+}
+
+.attribution {
+    height: fit-content;
+    width: 280px;
+    padding: 30px 0;
+    color: rgb(252, 225, 185);
+    line-height: 1.5;
+    
+    & p {
+        font-size: 15px;
+
+        & a {
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+    text-underline-offset: 1.5px;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+/* Modal styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+.modal-content {
+    background-color: rgb(1, 95, 1);
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.modal-content h2 {
+    color: goldenrod;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.modal-content p {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.modal-content input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.modal-content button {
+    padding: 10px 20px;
+    background-color: goldenrod;
+    color: rgb(1, 95, 1);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.modal-content button:hover {
+    background-color: rgb(220, 195, 20);
+}
+
+/* Small devices (landscape phones, 375px and up) */
+@media (min-width: 375px) {
+    body {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                    url('/assets/images/background.jpg') center/cover no-repeat;
+    }
+    
+    #blackjack {
+        min-height: 490px;
+        max-height: 490px;
+        width: 300px;
+    }
+
+    .attribution {
+        width: 280px;
+    }
+
+    .modal-content {
+        max-width: 400px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #blackjack {
+        min-height: 450px;
+        max-height: 450px;
+        width: 340px;
+    }
+
+    h1 {
+        font-size: 58px;
+    }
+
+    .attribution {
+        width: 100%;
+    }
+
+    .modal-content {
+        padding: 40px;
+    }
+    
+    .modal-content h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) {
+    #blackjack {
+        min-height: 460px;
+        max-height: 460px;
+        width: 350px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .modal-content {
+        padding: 50px;
+    }
+}
+
+/* Extra large devices (large desktops, 1440px and up) */
+@media (min-width: 1440px) {
+    /* Optional: Add adjustments for very large screens */
+    #blackjack {
+        min-height: 500px;
+        max-height: 500px;
+        width: 400px;
+    }
+
+    h1 {
+        font-size: 65px;
+    }
+}
+
+/* XXL devices (2560px and up) */
+@media (min-width: 2560px) {
+    #blackjack {
+        min-height: 1022px;
+        max-height: 75%;
+        width: 30%;
+        border-radius: 25px;
+        padding: 60px 0;
+    }
+
+    .cards,
+    #sum,
+    #error-el,
+    #player-el,
+    #message-el,
+    .buttons button {
+        font-size: 2.55rem;
+    }
+
+    .buttons {
+        height: 20vh;
+    }
+    
+    .buttons button {
+        width: 13vw;
+        height: 6vh;
+        border-radius: 12px;
+    }
+
+    h1 {
+        font-size: 8rem;
+    }
+
+    .modal-content {
+        display: flex;
+        flex-direction: column;
+        min-height: 450px;
+        max-width: 35%;
+        padding: 7rem 3rem;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .modal-content h2 {
+        font-size: 5rem;
+    }
+    
+    .modal-content p {
+        font-size: 2.4rem;
+    }
+    
+    .modal-content input {
+        margin: 1.8rem 0;
+        padding: 1.2rem 0;
+        font-size: 2.5rem;
+        border-radius: .7rem;
+    }
+    
+    .modal-content button {
+        margin-top: 1.5rem;
+        padding: 1.3rem 2.5rem;
+        border-radius: 5px;
+        font-size: 2.2rem;
+        font-weight: bolder;
+    }
+}
