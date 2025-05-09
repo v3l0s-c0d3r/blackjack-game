@@ -3,6 +3,11 @@
     src: url('../fonts/Gill-Sans.otf');
 }
 
+@font-face {
+    font-family: 'Gill Sans MT';
+    src: url('../fonts/Gill-Sans-MT.ttf');
+}
+
 * {
     margin: 0;
 }
@@ -36,6 +41,7 @@ body {
 h1 {
     font-size: 59px;
     color: goldenrod;
+    font-family; 'Gill Sans MT';
 }
 
 #message-el {
