@@ -165,6 +165,7 @@ canvas {
     color: goldenrod;
     margin-bottom: 20px;
     font-size: 1.8rem;
+    letter-spacing: 1.7px;
 }
 
 .modal-content p {
