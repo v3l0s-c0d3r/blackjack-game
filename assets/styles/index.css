@@ -21,7 +21,6 @@ body {
     align-items: center;
     justify-content: center;
     background-color: rgb(185, 145, 90);
-    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
 }
 
 /* Base styles - Mobile first (default for smallest screens) */
@@ -55,6 +54,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Gill Sans', sans-serif;
 }
 
 .buttons,
@@ -66,7 +66,8 @@ h1 {
 
 .error-msg {
     justify-content: center;
-    line-height: 1.7; 
+    line-height: 1.7;
+    font-family: 'Gill Sans', sans-serif; 
 
     & span {
         width: 80%;
@@ -79,6 +80,10 @@ h1 {
 #player-el {
     font-size: 20px;
     color: white;
+}
+
+#player-el {
+    font-family: 'Gill Sans', sans-serif;
 }
 
 .buttons {
@@ -102,29 +107,6 @@ h1 {
 .buttons button:hover {
     background-color: rgb(220, 195, 20);
     transition: ease-out .1s;
-}
-
-.attribution {
-    height: fit-content;
-    width: 280px;
-    padding: 30px 0;
-    color: rgb(252, 225, 185);
-    line-height: 1.5;
-    
-    & p {
-        font-size: 15px;
-
-        & a {
-            font-weight: bold;
-            color: white;
-            text-decoration: none;
-        }
-    }
-}
-
-.attribution a:hover {
-    text-decoration: underline;
-    text-underline-offset: 1.5px;
 }
 
 canvas {
