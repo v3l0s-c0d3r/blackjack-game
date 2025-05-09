@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-    <img src="https://i.postimg.cc/XY7nL3yZ/blackjack-banner.png" alt="preview" width="800">
+    <img src="/assets/images/preview.png" alt="preview" width="800">
   <br />
   <br />
 
