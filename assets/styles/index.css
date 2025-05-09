@@ -130,6 +130,7 @@ canvas {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Gill Sans', sans-serif;
     z-index: 2000;
 }
 
