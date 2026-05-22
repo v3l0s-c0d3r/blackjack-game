@@ -47,7 +47,7 @@ A sleek, responsive Blackjack game built with vanilla JavaScript. Offers an imme
 
 👉 **Dynamic UI**: Buttons and messages adapt based on game state for intuitive gameplay
 
-## <a name="follow-me">🫱🏽‍🫲🏼 Let's Connect</a>
+## <a name="follow-me">🤝🏾 Let's Connect</a>
 **Hey there! Interested in working with me?** 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/themelodyemmanuel) or shoot me an [email](mailto:melodyemmanuel152@gmail.com). Tech and career opportunities only, please 👀
 
